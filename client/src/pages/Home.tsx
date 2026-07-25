@@ -14,7 +14,7 @@ import toast from "react-hot-toast/headless";
 
 export default function Home() {
     const [trending, setTrending] = useState<any[]>([]);
-    const [loading, setLoading] = useState(true);
+    const [loading] = useState(true);
 
     useEffect(() => {
         const fetchTrending = async () => {
