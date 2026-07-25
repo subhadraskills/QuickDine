@@ -43,7 +43,7 @@ export default function Search() {
             setLoading(true);
 
             //Construct query string directly from searchParams
-            const res=await api.get(`/restaurants?${searchParams.toString}`)
+            const res = await api.get(`/restaurants?${searchParams.toString()}`)
             setRestaurants(res.data)
         
 
