@@ -23,7 +23,7 @@ export default function Dashboard() {
         const fetchBookings = async () => {
           try{
             setLoadingBookings(true);
-            const res=await api.get("/booking/my")
+            const res=await api.get("/bookings/my")
             setBookings(res.data)
           }
           catch(error:any){
