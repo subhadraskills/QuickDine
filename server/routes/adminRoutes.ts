@@ -4,7 +4,7 @@ import { approveRestaurant, getAdminStats, getAllRestaurants } from "../controll
 
 const adminRouter= Router()
 
-adminRouter.get("/restaurant", getAllRestaurants)
+adminRouter.get("/restaurants", getAllRestaurants)
 adminRouter.put("/restaurants/:id/approve", approveRestaurant)
 adminRouter.get("/stats", getAdminStats)
 
