@@ -133,6 +133,19 @@ Frontend → Axios → Backend API → Controllers → Database
 
 ---
 
+## 🧩 Application Modules Overview
+
+| Module | Description |
+|--------|-------------|
+| Authentication | User registration, login, JWT-based authentication |
+| Customer | Browse restaurants, search, check availability, book tables, manage bookings |
+| Restaurant Owner | Restaurant registration, profile management, booking management |
+| Admin | Restaurant approval, dashboard, platform management |
+| Restaurant | Restaurant details, menus, availability management |
+| Booking | Table reservation, booking history, cancellation workflow |
+
+---
+
 
 ## ⚙️ Installation & Setup
 
