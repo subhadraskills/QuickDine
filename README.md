@@ -1,6 +1,14 @@
 # 🍽️ QuickDine
 
-A full-stack restaurant table booking platform built with React, Node.js, Express.js and MongoDB.
+A full-stack restaurant table booking platform built with React, Node.js, Express.js, and MongoDB.
+
+## 📌 Project Overview
+
+QuickDine is a restaurant reservation platform designed to simplify the table booking experience. Users can explore restaurants, search and filter restaurants, view detailed information, check table availability, and reserve tables online.
+
+The platform supports three main roles: Customer, Restaurant Owner, and Admin. Customers can manage their bookings, restaurant owners can manage their restaurants and reservations, and admins can approve restaurants and monitor platform activities.
+
+The goal of QuickDine is to provide a seamless digital booking solution that connects customers with restaurants while improving restaurant management efficiency.
 
 ---
 
